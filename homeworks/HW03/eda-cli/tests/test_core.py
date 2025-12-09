@@ -60,6 +60,7 @@ def test_missing_table_and_quality_flags():
     flags = compute_quality_flags(summary, missing_df)
     assert 0.0 <= flags["quality_score"] <= 1.0
 
+def test_my_quality_flag():
     # Домашнее задание, все тесты новых флагов подключены
     df2 = _sample_df2()
     missing_df2 = missing_table(df2)
