@@ -1,0 +1,24 @@
+{
+  "DecisionTree": {
+    "best_params": {
+      "max_depth": 15,
+      "min_samples_leaf": 4,
+      "min_samples_split": 10
+    },
+    "best_cv_score": 0.9658507462686566
+  },
+  "RandomForest": {
+    "best_params": {
+      "n_estimators": 600
+    },
+    "best_cv_score": 0.8857118074656609
+  },
+  "AdaBoost": {
+    "best_params": {
+      "estimator": "DecisionTreeClassifier(max_depth=2)",
+      "learning_rate": 0.6,
+      "n_estimators": 300
+    },
+    "best_cv_score": 0.8863051661773096
+  }
+}
