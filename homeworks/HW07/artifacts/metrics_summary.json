@@ -1,0 +1,638 @@
+{
+  "df2": {
+    "kmeans_{'k': 2, 'n_init': 5}": {
+      "silhouette": 0.3068610017701601,
+      "davies_bouldin": 1.3234721699867644,
+      "calinski_harabasz": 3573.3933329348392,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 2, 'n_init': 10}": {
+      "silhouette": 0.3068610017701601,
+      "davies_bouldin": 1.3234721699867644,
+      "calinski_harabasz": 3573.3933329348392,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 3, 'n_init': 5}": {
+      "silhouette": 0.2750789836991554,
+      "davies_bouldin": 1.22516372441342,
+      "calinski_harabasz": 3077.719472591118,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 3, 'n_init': 10}": {
+      "silhouette": 0.27004522856451274,
+      "davies_bouldin": 1.2226592908750664,
+      "calinski_harabasz": 3082.272074544635,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 4, 'n_init': 5}": {
+      "silhouette": 0.2510771149288536,
+      "davies_bouldin": 1.3010892126815645,
+      "calinski_harabasz": 2915.4955616344228,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 4, 'n_init': 10}": {
+      "silhouette": 0.2514805632951281,
+      "davies_bouldin": 1.2998187751155688,
+      "calinski_harabasz": 2915.565357085485,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 5, 'n_init': 5}": {
+      "silhouette": 0.25211519070471305,
+      "davies_bouldin": 1.2138337452137868,
+      "calinski_harabasz": 2703.5897042630368,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 5, 'n_init': 10}": {
+      "silhouette": 0.25211519070471305,
+      "davies_bouldin": 1.2138337452137868,
+      "calinski_harabasz": 2703.5897042630368,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 6, 'n_init': 5}": {
+      "silhouette": 0.25981972898842143,
+      "davies_bouldin": 1.159521129561412,
+      "calinski_harabasz": 2571.0909314132814,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 6, 'n_init': 10}": {
+      "silhouette": 0.25981972898842143,
+      "davies_bouldin": 1.159521129561412,
+      "calinski_harabasz": 2571.0909314132814,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 7, 'n_init': 5}": {
+      "silhouette": 0.24782972139734222,
+      "davies_bouldin": 1.1701378773925224,
+      "calinski_harabasz": 2422.6590537170714,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 7, 'n_init': 10}": {
+      "silhouette": 0.2536432556085209,
+      "davies_bouldin": 1.1723338222249964,
+      "calinski_harabasz": 2453.500966352129,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 8, 'n_init': 5}": {
+      "silhouette": 0.25230459123826915,
+      "davies_bouldin": 1.1001780140666457,
+      "calinski_harabasz": 2408.5165874822683,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 8, 'n_init': 10}": {
+      "silhouette": 0.25230459123826915,
+      "davies_bouldin": 1.1001780140666457,
+      "calinski_harabasz": 2408.5165874822683,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 9, 'n_init': 5}": {
+      "silhouette": 0.2524627947838528,
+      "davies_bouldin": 1.0895692637687338,
+      "calinski_harabasz": 2379.9899548084677,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 9, 'n_init': 10}": {
+      "silhouette": 0.2524627947838528,
+      "davies_bouldin": 1.0895692637687338,
+      "calinski_harabasz": 2379.9899548084677,
+      "noise_ratio": 0.0
+    },
+    "dbscan_{'eps': 0.3, 'min_samples': 5}": {
+      "silhouette": 0.08522505460147263,
+      "davies_bouldin": 0.5896990784253007,
+      "calinski_harabasz": 21.95165666653018,
+      "noise_ratio": 0.072375
+    },
+    "dbscan_{'eps': 0.5, 'min_samples': 5}": {
+      "silhouette": -0.05824642298525936,
+      "davies_bouldin": 0.7896110332641587,
+      "calinski_harabasz": 49.82201468663914,
+      "noise_ratio": 0.045
+    },
+    "dbscan_{'eps': 0.5, 'min_samples': 10}": {
+      "silhouette": 0.25120225459401474,
+      "davies_bouldin": 0.7420731639720546,
+      "calinski_harabasz": 26.168575636304777,
+      "noise_ratio": 0.063625
+    },
+    "dbscan_{'eps': 0.7, 'min_samples': 10}": {
+      "silhouette": 0.3049523469313708,
+      "davies_bouldin": 0.6006770767549849,
+      "calinski_harabasz": 114.42869204908136,
+      "noise_ratio": 0.036375
+    },
+    "agglomerative_{'k': 2, 'linkage': 'ward'}": {
+      "silhouette": 0.2658744116185544,
+      "davies_bouldin": 1.4673684423118982,
+      "calinski_harabasz": 2929.722347992005,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 2, 'linkage': 'average'}": {
+      "silhouette": 0.41976775922231674,
+      "davies_bouldin": 0.8791287795996852,
+      "calinski_harabasz": 395.4825694831712,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 3, 'linkage': 'ward'}": {
+      "silhouette": 0.20763735890314128,
+      "davies_bouldin": 1.3111375348939511,
+      "calinski_harabasz": 2299.9172003357685,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 3, 'linkage': 'average'}": {
+      "silhouette": 0.3050965325187558,
+      "davies_bouldin": 0.977029503551066,
+      "calinski_harabasz": 416.1415425758576,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 4, 'linkage': 'ward'}": {
+      "silhouette": 0.17451242561627014,
+      "davies_bouldin": 1.4867630558272455,
+      "calinski_harabasz": 2186.3460429730358,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 4, 'linkage': 'average'}": {
+      "silhouette": 0.30405383458051755,
+      "davies_bouldin": 0.9708223261256385,
+      "calinski_harabasz": 454.97033429630284,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 5, 'linkage': 'ward'}": {
+      "silhouette": 0.17657891906134224,
+      "davies_bouldin": 1.3974679212402816,
+      "calinski_harabasz": 2057.019141308772,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 5, 'linkage': 'average'}": {
+      "silhouette": 0.25329877198362283,
+      "davies_bouldin": 0.8890665341051245,
+      "calinski_harabasz": 346.4322858668195,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 6, 'linkage': 'ward'}": {
+      "silhouette": 0.17980493723305202,
+      "davies_bouldin": 1.3024630783770401,
+      "calinski_harabasz": 1974.0155470062002,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 6, 'linkage': 'average'}": {
+      "silhouette": 0.24162835979556102,
+      "davies_bouldin": 0.9139893880177068,
+      "calinski_harabasz": 366.21268485029884,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 7, 'linkage': 'ward'}": {
+      "silhouette": 0.1876158491479264,
+      "davies_bouldin": 1.3092586256614929,
+      "calinski_harabasz": 1948.940285048806,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 7, 'linkage': 'average'}": {
+      "silhouette": 0.22553768390601078,
+      "davies_bouldin": 0.9132380904359497,
+      "calinski_harabasz": 307.34968858869905,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 8, 'linkage': 'ward'}": {
+      "silhouette": 0.1957082166875104,
+      "davies_bouldin": 1.245267591109359,
+      "calinski_harabasz": 1938.395868847042,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 8, 'linkage': 'average'}": {
+      "silhouette": 0.15041540371381307,
+      "davies_bouldin": 0.9219264934727053,
+      "calinski_harabasz": 349.02604933639515,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 9, 'linkage': 'ward'}": {
+      "silhouette": 0.19613533599144206,
+      "davies_bouldin": 1.2443632546442958,
+      "calinski_harabasz": 1877.2939932844433,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 9, 'linkage': 'average'}": {
+      "silhouette": 0.14064925571387152,
+      "davies_bouldin": 0.9679734494128398,
+      "calinski_harabasz": 310.9537437336,
+      "noise_ratio": 0.0
+    }
+  },
+  "df3": {
+    "kmeans_{'k': 2, 'n_init': 5}": {
+      "silhouette": 0.2989049482650359,
+      "davies_bouldin": 1.3554682309311277,
+      "calinski_harabasz": 7004.795629839117,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 2, 'n_init': 10}": {
+      "silhouette": 0.2989049482650359,
+      "davies_bouldin": 1.3554682309311277,
+      "calinski_harabasz": 7004.795629839117,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 3, 'n_init': 5}": {
+      "silhouette": 0.31554470037825183,
+      "davies_bouldin": 1.1577256320598661,
+      "calinski_harabasz": 6957.162639510166,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 3, 'n_init': 10}": {
+      "silhouette": 0.31554470037825183,
+      "davies_bouldin": 1.1577256320598661,
+      "calinski_harabasz": 6957.162639510166,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 4, 'n_init': 5}": {
+      "silhouette": 0.3146186578997614,
+      "davies_bouldin": 1.1596756007747975,
+      "calinski_harabasz": 6492.278930703822,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 4, 'n_init': 10}": {
+      "silhouette": 0.3146186578997614,
+      "davies_bouldin": 1.1596756007747975,
+      "calinski_harabasz": 6492.278930703822,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 5, 'n_init': 5}": {
+      "silhouette": 0.29979818813234577,
+      "davies_bouldin": 1.165743169260019,
+      "calinski_harabasz": 6125.03056803192,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 5, 'n_init': 10}": {
+      "silhouette": 0.299296734735238,
+      "davies_bouldin": 1.1685563259560328,
+      "calinski_harabasz": 6125.127992652557,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 6, 'n_init': 5}": {
+      "silhouette": 0.29314949913879973,
+      "davies_bouldin": 1.1407688365074904,
+      "calinski_harabasz": 6097.475389176514,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 6, 'n_init': 10}": {
+      "silhouette": 0.29314949913879973,
+      "davies_bouldin": 1.1407688365074904,
+      "calinski_harabasz": 6097.475389176514,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 7, 'n_init': 5}": {
+      "silhouette": 0.2798534492101504,
+      "davies_bouldin": 1.2184650902827827,
+      "calinski_harabasz": 5858.3449065085215,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 7, 'n_init': 10}": {
+      "silhouette": 0.2798534492101504,
+      "davies_bouldin": 1.2184650902827827,
+      "calinski_harabasz": 5858.3449065085215,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 8, 'n_init': 5}": {
+      "silhouette": 0.28949142967979535,
+      "davies_bouldin": 1.1472308916005955,
+      "calinski_harabasz": 5630.838100907985,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 8, 'n_init': 10}": {
+      "silhouette": 0.28949142967979535,
+      "davies_bouldin": 1.1472308916005955,
+      "calinski_harabasz": 5630.838100907985,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 9, 'n_init': 5}": {
+      "silhouette": 0.28479131908460764,
+      "davies_bouldin": 1.1235382466313488,
+      "calinski_harabasz": 5543.965528413644,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 9, 'n_init': 10}": {
+      "silhouette": 0.28479131908460764,
+      "davies_bouldin": 1.1235382466313488,
+      "calinski_harabasz": 5543.965528413644,
+      "noise_ratio": 0.0
+    },
+    "dbscan_{'eps': 0.3, 'min_samples': 5}": {
+      "silhouette": -0.23607621117106722,
+      "davies_bouldin": 0.9304360273636127,
+      "calinski_harabasz": 323.43126955303904,
+      "noise_ratio": 0.12533333333333332
+    },
+    "dbscan_{'eps': 0.3, 'min_samples': 10}": {
+      "silhouette": 0.03770716012015256,
+      "davies_bouldin": 1.2321530578469553,
+      "calinski_harabasz": 1788.4185468058356,
+      "noise_ratio": 0.21566666666666667
+    },
+    "dbscan_{'eps': 0.5, 'min_samples': 5}": {
+      "silhouette": -0.10435334322693379,
+      "davies_bouldin": 0.8424164793866374,
+      "calinski_harabasz": 12.755893055371436,
+      "noise_ratio": 0.0222
+    },
+    "dbscan_{'eps': 0.5, 'min_samples': 10}": {
+      "silhouette": 0.14243088104506607,
+      "davies_bouldin": 1.3932351326290715,
+      "calinski_harabasz": 1640.790703583512,
+      "noise_ratio": 0.0324
+    },
+    "agglomerative_{'k': 2, 'linkage': 'ward'}": {
+      "silhouette": 0.29250005932441614,
+      "davies_bouldin": 1.380807125038352,
+      "calinski_harabasz": 6680.868002491397,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 2, 'linkage': 'average'}": {
+      "silhouette": 0.4252961244445327,
+      "davies_bouldin": 0.813802016581118,
+      "calinski_harabasz": 8.943143115556799,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 3, 'linkage': 'ward'}": {
+      "silhouette": 0.30940029307932226,
+      "davies_bouldin": 1.1775936042245867,
+      "calinski_harabasz": 6705.577295073578,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 3, 'linkage': 'average'}": {
+      "silhouette": 0.2556565008597179,
+      "davies_bouldin": 0.9650617082850917,
+      "calinski_harabasz": 78.99058767304906,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 4, 'linkage': 'ward'}": {
+      "silhouette": 0.3035720503661607,
+      "davies_bouldin": 1.1730948913052048,
+      "calinski_harabasz": 6206.351567152033,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 4, 'linkage': 'average'}": {
+      "silhouette": 0.24597991015657278,
+      "davies_bouldin": 0.816473693015662,
+      "calinski_harabasz": 53.94067477007235,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 5, 'linkage': 'ward'}": {
+      "silhouette": 0.2746982460793454,
+      "davies_bouldin": 1.1833922147482323,
+      "calinski_harabasz": 5558.796175338132,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 5, 'linkage': 'average'}": {
+      "silhouette": 0.15130736306780032,
+      "davies_bouldin": 0.7672863879076195,
+      "calinski_harabasz": 41.156339657484864,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 6, 'linkage': 'ward'}": {
+      "silhouette": 0.2632068043040541,
+      "davies_bouldin": 1.3015342107583034,
+      "calinski_harabasz": 5234.202190324292,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 6, 'linkage': 'average'}": {
+      "silhouette": 0.040826267122922144,
+      "davies_bouldin": 0.8854371724581744,
+      "calinski_harabasz": 61.30580650895863,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 7, 'linkage': 'ward'}": {
+      "silhouette": 0.26028209931641894,
+      "davies_bouldin": 1.3098773270936601,
+      "calinski_harabasz": 5065.825065248148,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 7, 'linkage': 'average'}": {
+      "silhouette": 0.010952619023768099,
+      "davies_bouldin": 0.7667421806789241,
+      "calinski_harabasz": 51.290507671606946,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 8, 'linkage': 'ward'}": {
+      "silhouette": 0.252613237218895,
+      "davies_bouldin": 1.2134016913376366,
+      "calinski_harabasz": 5057.543191593846,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 8, 'linkage': 'average'}": {
+      "silhouette": 0.14173799390706585,
+      "davies_bouldin": 0.8633085119279232,
+      "calinski_harabasz": 981.3462151107009,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 9, 'linkage': 'ward'}": {
+      "silhouette": 0.24449387935070324,
+      "davies_bouldin": 1.1850427285125718,
+      "calinski_harabasz": 4893.338498321766,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 9, 'linkage': 'average'}": {
+      "silhouette": 0.1255324008895236,
+      "davies_bouldin": 0.8317728969234398,
+      "calinski_harabasz": 864.1650693989199,
+      "noise_ratio": 0.0
+    }
+  },
+  "df4": {
+    "kmeans_{'k': 2, 'n_init': 5}": {
+      "silhouette": 0.2555030324039917,
+      "davies_bouldin": 1.635731317502957,
+      "calinski_harabasz": 3126.3280834314655,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 2, 'n_init': 10}": {
+      "silhouette": 0.2555030324039917,
+      "davies_bouldin": 1.635731317502957,
+      "calinski_harabasz": 3126.3280834314655,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 3, 'n_init': 5}": {
+      "silhouette": 0.29412781492401574,
+      "davies_bouldin": 1.4666404940276456,
+      "calinski_harabasz": 3355.1367295098216,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 3, 'n_init': 10}": {
+      "silhouette": 0.29412781492401574,
+      "davies_bouldin": 1.4666404940276456,
+      "calinski_harabasz": 3355.1367295098216,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 4, 'n_init': 5}": {
+      "silhouette": 0.3748884571841955,
+      "davies_bouldin": 1.164396444688146,
+      "calinski_harabasz": 3907.022658109873,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 4, 'n_init': 10}": {
+      "silhouette": 0.3748884571841955,
+      "davies_bouldin": 1.164396444688146,
+      "calinski_harabasz": 3907.022658109873,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 5, 'n_init': 5}": {
+      "silhouette": 0.44736887827969146,
+      "davies_bouldin": 0.975904265483746,
+      "calinski_harabasz": 5087.688517434967,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 5, 'n_init': 10}": {
+      "silhouette": 0.44736887827969146,
+      "davies_bouldin": 0.975904265483746,
+      "calinski_harabasz": 5087.688517434967,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 6, 'n_init': 5}": {
+      "silhouette": 0.4231337206965295,
+      "davies_bouldin": 1.009677008254225,
+      "calinski_harabasz": 5371.6181254668945,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 6, 'n_init': 10}": {
+      "silhouette": 0.4231337206965295,
+      "davies_bouldin": 1.009677008254225,
+      "calinski_harabasz": 5371.6181254668945,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 7, 'n_init': 5}": {
+      "silhouette": 0.3826537781177123,
+      "davies_bouldin": 1.6592935472930683,
+      "calinski_harabasz": 4566.924336936665,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 7, 'n_init': 10}": {
+      "silhouette": 0.3826537781177123,
+      "davies_bouldin": 1.6592935472930683,
+      "calinski_harabasz": 4566.924336936665,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 8, 'n_init': 5}": {
+      "silhouette": 0.31858633241558043,
+      "davies_bouldin": 2.1545699151492865,
+      "calinski_harabasz": 3988.7857838320124,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 8, 'n_init': 10}": {
+      "silhouette": 0.31799614189123376,
+      "davies_bouldin": 2.104849245577069,
+      "calinski_harabasz": 3990.988974490439,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 9, 'n_init': 5}": {
+      "silhouette": 0.2597386590432068,
+      "davies_bouldin": 2.4588603317823297,
+      "calinski_harabasz": 3554.062174795712,
+      "noise_ratio": 0.0
+    },
+    "kmeans_{'k': 9, 'n_init': 10}": {
+      "silhouette": 0.26935833457916875,
+      "davies_bouldin": 2.4603717089410555,
+      "calinski_harabasz": 3559.693953771096,
+      "noise_ratio": 0.0
+    },
+    "dbscan_{'eps': 1.0, 'min_samples': 5}": {
+      "silhouette": 0.4936196608771025,
+      "davies_bouldin": 0.7018134049406587,
+      "calinski_harabasz": 15.385195254173002,
+      "noise_ratio": 0.999
+    },
+    "agglomerative_{'k': 2, 'linkage': 'ward'}": {
+      "silhouette": 0.2555030324039917,
+      "davies_bouldin": 1.635731317502957,
+      "calinski_harabasz": 3126.3280834314655,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 2, 'linkage': 'average'}": {
+      "silhouette": 0.2555030324039917,
+      "davies_bouldin": 1.635731317502957,
+      "calinski_harabasz": 3126.3280834314655,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 3, 'linkage': 'ward'}": {
+      "silhouette": 0.29412781492401574,
+      "davies_bouldin": 1.4666404940276456,
+      "calinski_harabasz": 3355.1367295098207,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 3, 'linkage': 'average'}": {
+      "silhouette": 0.3060908951529743,
+      "davies_bouldin": 1.4343692885311574,
+      "calinski_harabasz": 3303.3798224978095,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 4, 'linkage': 'ward'}": {
+      "silhouette": 0.3748884571841955,
+      "davies_bouldin": 1.164396444688146,
+      "calinski_harabasz": 3907.0226581098723,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 4, 'linkage': 'average'}": {
+      "silhouette": 0.3721036573206092,
+      "davies_bouldin": 1.119144327392513,
+      "calinski_harabasz": 3739.6067411603867,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 5, 'linkage': 'ward'}": {
+      "silhouette": 0.44736887827969146,
+      "davies_bouldin": 0.975904265483746,
+      "calinski_harabasz": 5087.688517434967,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 5, 'linkage': 'average'}": {
+      "silhouette": 0.44736887827969146,
+      "davies_bouldin": 0.975904265483746,
+      "calinski_harabasz": 5087.688517434967,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 6, 'linkage': 'ward'}": {
+      "silhouette": 0.4231337206965295,
+      "davies_bouldin": 1.009677008254225,
+      "calinski_harabasz": 5371.6181254668945,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 6, 'linkage': 'average'}": {
+      "silhouette": 0.4237971398607023,
+      "davies_bouldin": 0.9005335283180226,
+      "calinski_harabasz": 4071.6257794276003,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 7, 'linkage': 'ward'}": {
+      "silhouette": 0.3643317566548544,
+      "davies_bouldin": 1.8434820305414839,
+      "calinski_harabasz": 4527.838997776895,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 7, 'linkage': 'average'}": {
+      "silhouette": 0.4091463631370875,
+      "davies_bouldin": 0.9402876075634473,
+      "calinski_harabasz": 4478.214098796025,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 8, 'linkage': 'ward'}": {
+      "silhouette": 0.3053673570871327,
+      "davies_bouldin": 2.583874705429502,
+      "calinski_harabasz": 3924.2299630156404,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 8, 'linkage': 'average'}": {
+      "silhouette": 0.40033851229474443,
+      "davies_bouldin": 0.8844588060858083,
+      "calinski_harabasz": 3840.0107567571768,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 9, 'linkage': 'ward'}": {
+      "silhouette": 0.23708807303454654,
+      "davies_bouldin": 3.1282029704781786,
+      "calinski_harabasz": 3471.568580679247,
+      "noise_ratio": 0.0
+    },
+    "agglomerative_{'k': 9, 'linkage': 'average'}": {
+      "silhouette": 0.3746084510133229,
+      "davies_bouldin": 0.9815803290412705,
+      "calinski_harabasz": 3361.6599338718215,
+      "noise_ratio": 0.0
+    }
+  }
+}
